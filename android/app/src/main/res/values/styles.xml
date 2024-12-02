@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is off -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             the Flutter engine draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <!-- Theme applied to the Android Window as soon as the process has started.
+         This theme determines the color of the Android Window while your
+         Flutter UI initializes, as well as behind your Flutter UI while its
+         running.
+
+         This Theme is only used starting with V2 of Flutter's Android embedding. -->
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+<!-- <string name="app_name">flutter3</string> -->
+    <!-- <string name="facebook_app_id">452811824511539</string>
+    <string name="fb_login_protocol_scheme">fb1402014730420217</string>
+    <string name="facebook_client_token">e1cf26f3292d5b85e0f993b3b92a9ad0</string>
+    <string name="auth_redirect_url">https://projetwave-fdf80.firebaseapp.com/__/auth/handler</string> -->
+
+
+</resources>
