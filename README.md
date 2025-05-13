@@ -7,7 +7,7 @@ Y Wallet est une application mobile développée avec **Flutter** et architectur
 ## 🚀 Fonctionnalités Clés
 
 ### 🔐 Authentification & Sécurité
-- Connexion / Inscription
+- Connexion / Inscription Avec GOOGLE et FACEBOOK
 - Gestion de sessions sécurisées
 - PIN ou biométrie (selon les capacités de l’appareil)
 
@@ -21,14 +21,14 @@ Y Wallet est une application mobile développée avec **Flutter** et architectur
 ### 🧾 Gestion de Compte
 - Solde en temps réel
 - Recharge de portefeuille
-- Retrait vers un compte bancaire
+- Retrait simple
 - Liste de bénéficiaires favoris
 
 ### 📦 Autres
-- Notifications en temps réel (via Firebase ou autre)
+- Notifications en temps réel (via Firebase )
 - UI/UX responsive
 - Architecture **GetX** modulaire et évolutive
-
+-Backend Spring Boot et Firebase
 ---
 
 ## 🏗️ Architecture du Projet
